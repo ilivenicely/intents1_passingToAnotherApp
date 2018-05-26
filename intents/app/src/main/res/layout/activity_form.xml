@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".Form_Activity"
+    tools:ignore="HardcodedText,SpUsage">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="input field 1"
+        android:inputType="text"
+        android:textSize="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="input field 2"
+        android:inputType="text"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ed3"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="input field 3"
+        android:inputType="number"
+        android:textSize="20dp"/>
+</LinearLayout>
